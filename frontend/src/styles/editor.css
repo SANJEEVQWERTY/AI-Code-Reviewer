@@ -1,0 +1,112 @@
+.code-editor {
+    counter-reset: line;
+    white-space: pre;
+    word-wrap: normal;
+    tab-size: 2;
+    position: relative;
+    height: 100%;
+    min-height: 200px;
+}
+
+.editor-textarea {
+    outline: none;
+    padding-left: 60px !important;
+    caret-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    resize: none;
+    color: transparent;
+    background: transparent;
+    border: none;
+    overflow: auto;
+    white-space: pre;
+    word-wrap: normal;
+    font-family: "Fira code", "Fira Mono", monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    tab-size: 2;
+    -moz-tab-size: 2;
+    -webkit-tab-size: 2;
+}
+
+.code-editor pre {
+    padding-left: 60px !important;
+    margin: 0;
+    white-space: pre;
+    word-wrap: normal;
+    font-family: "Fira code", "Fira Mono", monospace;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.code-editor .editor__line-number {
+    position: absolute;
+    left: 0px;
+    color: #858585;
+    text-align: right;
+    width: 40px;
+    font-weight: 100;
+    user-select: none;
+    font-family: "Fira code", "Fira Mono", monospace;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Syntax highlighting */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #6a9955;
+}
+
+.token.punctuation {
+    color: #d4d4d4;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #b5cea8;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #ce9178;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+    color: #d4d4d4;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #569cd6;
+}
+
+.token.function,
+.token.class-name {
+    color: #dcdcaa;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+    color: #d16969;
+}
