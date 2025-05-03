@@ -14,7 +14,7 @@ const Signup = ({ onLogin }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3000/auth/signup', {
+      const response = await axios.post('https://ai-code-reviewer-1-qlt5.onrender.com/auth/signup', {
         name: `${firstName} ${lastName}`,
         email,
         password
