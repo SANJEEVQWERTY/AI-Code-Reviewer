@@ -34,9 +34,9 @@ Please provide a detailed and constructive review. Focus on:
 2. Potential bugs or issues
 3. Performance considerations
 4. Security concerns
-5. Best practices and improvements
-6. code is given c++, java, python, and javascript
-7. link provide for learn about the problem
+5. you give right code as i am given input and code is as it is given input type ok not give best code
+6. code is given c++, java, python, and javascript together all language
+7. link provide for learn about the problem for another window and link is highlighted 
 8. generated output is given main point highlighted
 9. you give our code is running on online compiler correctly
 10. give best time complexity and space complexity
