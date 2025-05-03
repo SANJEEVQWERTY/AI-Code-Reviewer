@@ -97,7 +97,7 @@ function App() {
       }
 
       const response = await axios.post(
-        "https://ai-code-reviewer-1-qlt5.onrender.com/ai/get-review",
+        "https://ai-code-reviewer-jet-five.vercel.app/ai/get-review",
         { code },
         {
           headers: {
